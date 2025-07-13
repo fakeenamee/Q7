@@ -25,24 +25,24 @@ public class Q8 {
     }
     //Set entire row to zero
     public void nullifyRow (int[][] matrix, int row){
-      for (int col = 0; col < matrix.length; col++){
+      for (int col = 0; col < matrix[0].length; col++){
         matrix[row][col]=0;
       }
     }
   
     public int [][] zeroMatrix(int[][] matrix) {
         boolean row1_has_zero = false;
-        boolean row2_has_zero = false;
+        boolean col1_has_zero = false;
 
         //Check if first row has zeroes
         for (int row = 0; row < matrix.length; row++){
-          if (matrix[row][0]==0{
+          if (matrix[row][0]==0){
             row1_has_zero = true;
           }
         }
         //Check if first column has zeroes
         for (int col = 0; col < matrix[0].length; col++){
-          if (matrix[0][col]==0{
+          if (matrix[0][col]==0){
             col1_has_zero = true;
           }
         }
