@@ -1,7 +1,7 @@
 public class Q9{
   public static void main(String [] args){
     Q9 q9=new Q9();
-    System.out.println(q9.stringRotation("waterbottle", "terbottlewa"))
+    System.out.println(q9.stringRotation("waterbottle", "terbottlewa"));
   }
   public boolean stringRotation(String s1, String s2){
     if (s1.length() != s2.length()){
